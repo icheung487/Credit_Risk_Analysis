@@ -1,9 +1,9 @@
 # Credit_Risk_Analysis
 
 # Overview of the analysis: 
-Fast Lending wants to use machine learning to predict credit risk.  We will build different machine learning models to predict credit risk.  The purpose is to train and evaluate different models to see which model would be best to predict credit risk
+Fast Lending wants to use machine learning to predict credit risk.  We will build different machine learning models to better understand which model will be best to fit how we can predict credit risk. Then, we will analyze each model's accuracy score, precision and recall to determine the best fit. 
 
-Results: Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all six machine learning models. Use screenshots of your outputs to support your results.
+# Results: Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all six machine learning models. Use screenshots of your outputs to support your results.
 
 # Native Resampling Model:
 ![image](https://github.com/icheung487/Credit_Risk_Analysis/blob/main/images/Native_Random_oversampling.png)
@@ -56,11 +56,11 @@ Results: Using bulleted lists, describe the balanced accuracy scores and the pre
 * Avg/Total 99% for precision / 94% for recall 
 
 
-Summary: Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
+# Summary: Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
 
 We used different techniquest to deal with class imbalance.  In the first deliverable we used over and undersampling, then a combination approach to deal with unequal classification. 
 
 In deliverable two, we used SMOTEENN approach to resample both over and undersampling data. Then in deliverable 3, we used boosting to combine weak sampling together. By using adaptive boosting, you can train and evaluate the errors to retrain the model. 
 
-Overall, I would recommend the ensemble classifier model since it had the highest accuracy score of 92% and a high recall score. 
+Overall, I would recommend the ensemble classifier model since it had the highest accuracy score of 92%. Also, the precision and recall score was quite balance between the two as the average total. 
 
