@@ -5,12 +5,54 @@ Fast Lending wants to use machine learning to predict credit risk.  We will buil
 
 Results: Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all six machine learning models. Use screenshots of your outputs to support your results.
 
-# Resampling:
+# Native Resampling Model:
 
-* Balance accuracy score - 64%
-* Precision scores <> high-risk 0.01 <> low-risk 1.00
-* Recall scores <> high-risk 0.59 <> low-risk 0.69
-* Avg/Total 99% for precision & 69% for recall (sensitivity)
+* Balance accuracy score = 65%
+* Precision scores = high-risk 0.01 / low-risk 1.00
+* Recall scores = high-risk 0.62 / low-risk 0.68
+* Avg/Total 99% for precision / 68% for recall 
+
+# Smote Oversampling Model:
+
+* Balance accuracy score = 64%
+* Precision scores = high-risk 0.01 / low-risk 1.00
+* Recall scores = high-risk 0.63 / low-risk 0.66
+* Avg/Total 99% for precision / 66% for recall 
+
+# Undersampling Model:
+
+* Balance accuracy score = 64%
+* Precision scores = high-risk 0.01 / low-risk 1.00
+* Recall scores = high-risk 0.61 / low-risk 0.45
+* Avg/Total 99% for precision / 45% for recall 
+
+# Combination Sampling Model:
+
+* Balance accuracy score = 64%
+* Precision scores = high-risk 0.01 / low-risk 1.00
+* Recall scores = high-risk 0.61 / low-risk 0.45
+* Avg/Total 99% for precision / 45% for recall 
+
+# Balanced Random Forest Model:
+
+* Balance accuracy score = 81%
+* Precision scores = high-risk 0.04 / low-risk 1.00
+* Recall scores = high-risk 0.72 / low-risk 0.90
+* Avg/Total 99% for precision / 90% for recall 
+
+# Easy Ensemble Classifier Model:
+
+* Balance accuracy score = 92%
+* Precision scores = high-risk 0.07 / low-risk 1.00
+* Recall scores = high-risk 0.91 / low-risk 0.94
+* Avg/Total 99% for precision / 94% for recall 
 
 
 Summary: Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
+
+We used different techniquest to deal with class imbalance.  In the first deliverable we used over and undersampling, then a combination approach to deal with unequal classification. 
+
+In deliverable two, we used SMOTEENN approach to resample both over and undersampling data. Then in deliverable 3, we used boosting to combine weak sampling together. By using adaptive boosting, you can train and evaluate the errors to retrain the model. 
+
+Overall, I would recommend the ensemble classifier model since it had the highest accuracy score of 92% and a high recall score. 
+
