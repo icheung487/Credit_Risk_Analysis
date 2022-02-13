@@ -5,7 +5,7 @@ Fast Lending wants to use machine learning to predict credit risk.  We will buil
 
 Results: Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all six machine learning models. Use screenshots of your outputs to support your results.
 
-#Resampling:
+# Resampling:
 
 * Balance accuracy score - 64%
 * Precision scores <> high-risk 0.01 <> low-risk 1.00
