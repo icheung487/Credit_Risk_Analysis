@@ -6,6 +6,8 @@ Fast Lending wants to use machine learning to predict credit risk.  We will buil
 Results: Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all six machine learning models. Use screenshots of your outputs to support your results.
 
 # Native Resampling Model:
+![image](https://github.com/icheung487/Credit_Risk_Analysis/blob/main/images/Native_Random_oversampling.png)
+
 
 * Balance accuracy score = 65%
 * Precision scores = high-risk 0.01 / low-risk 1.00
@@ -13,6 +15,7 @@ Results: Using bulleted lists, describe the balanced accuracy scores and the pre
 * Avg/Total 99% for precision / 68% for recall 
 
 # Smote Oversampling Model:
+![image](https://github.com/icheung487/Credit_Risk_Analysis/blob/main/images/Smote_undersampling.png)
 
 * Balance accuracy score = 64%
 * Precision scores = high-risk 0.01 / low-risk 1.00
@@ -21,12 +24,15 @@ Results: Using bulleted lists, describe the balanced accuracy scores and the pre
 
 # Undersampling Model:
 
+![image](https://github.com/icheung487/Credit_Risk_Analysis/blob/main/images/Undersampling.png)
+
 * Balance accuracy score = 64%
 * Precision scores = high-risk 0.01 / low-risk 1.00
 * Recall scores = high-risk 0.61 / low-risk 0.45
 * Avg/Total 99% for precision / 45% for recall 
 
 # Combination Sampling Model:
+![image](https://github.com/icheung487/Credit_Risk_Analysis/blob/main/images/Combination_Sampling.png)
 
 * Balance accuracy score = 64%
 * Precision scores = high-risk 0.01 / low-risk 1.00
@@ -34,6 +40,7 @@ Results: Using bulleted lists, describe the balanced accuracy scores and the pre
 * Avg/Total 99% for precision / 45% for recall 
 
 # Balanced Random Forest Model:
+![image](https://github.com/icheung487/Credit_Risk_Analysis/blob/main/images/Balanced_random_forest_classifier.png)
 
 * Balance accuracy score = 81%
 * Precision scores = high-risk 0.04 / low-risk 1.00
@@ -41,6 +48,7 @@ Results: Using bulleted lists, describe the balanced accuracy scores and the pre
 * Avg/Total 99% for precision / 90% for recall 
 
 # Easy Ensemble Classifier Model:
+![image](https://github.com/icheung487/Credit_Risk_Analysis/blob/main/images/Ensemble_Classifier.png)
 
 * Balance accuracy score = 92%
 * Precision scores = high-risk 0.07 / low-risk 1.00
